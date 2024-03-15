@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+ --corPrimaria : rgb(211, 71, 15);
+ --corSecudaria : blue;
+ --branco: rgb(119, 113, 113); 
+ --preto: black; 
+}
+
+#cabecalho{
+width: 100%;
+height: 70px;
+background-color:var(--corPrimaria)
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: var(--corPrimaria)
+}
+
+h3{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px;
+}
+.produto img{
+    width: 200px;
+    padding: 10px;
+    
+}
+
+/*catalogo*/
+#conteudo{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    
+}
+
+#catalogo{
+    display: flex;
+    align-items: center;
+}
+
+#banner{
+    width: 85%;
+    height: 300px;
+    background-image: url("../images/gokuzero.jpg");
+    background-size:cover;
+    padding:10% ;
+    align-items: center;
+}
