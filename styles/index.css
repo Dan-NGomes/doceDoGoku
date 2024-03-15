@@ -35,6 +35,7 @@ a{
 .produto img{
     width: 200px;
     padding: 10px;
+    display: flex;
     
 }
 
